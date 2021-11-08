@@ -2,6 +2,7 @@ body,h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     margin: 0;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    user-select: none;
 }
 
 /*-------------------- Main Section --------------------*/
@@ -58,6 +59,12 @@ body,h1,h2,h3,h4,h5,h6,p{
     border: none;
     outline: none;
     cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.main-section-button:hover{
+    background: #4752cc;
+    transform: scale(0.98);
 }
 
 .main-right{
@@ -171,6 +178,7 @@ body,h1,h2,h3,h4,h5,h6,p{
 }
 
 .sponsor-card{
+    cursor: pointer;
     margin-top: 15px;
     background: #eeeeee;
     padding: 25px 40px;
@@ -178,6 +186,7 @@ body,h1,h2,h3,h4,h5,h6,p{
     font-weight: 600;
     font-size: 14px;
 }
+
 
 /*---------------------- Benefits Section --------------------*/
 .benefits-section{
@@ -313,6 +322,12 @@ body,h1,h2,h3,h4,h5,h6,p{
     border: none;
     outline: none;
     cursor: pointer;
+    transition: .1s ease-in-out;
+}
+
+.footer-main button:hover{
+    background: #4752cc;
+    transform: scale(0.98);
 }
 
 .copyrights{
